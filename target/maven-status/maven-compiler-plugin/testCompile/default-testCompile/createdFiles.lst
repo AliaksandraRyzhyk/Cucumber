@@ -1,0 +1,8 @@
+runner\RunCucumberTest.class
+steps\scenario1\MainPageScenario1Step2.class
+steps\scenario1\MainPageScenario1Step3.class
+steps\scenario2\MainPageScenario2Step2.class
+steps\scenario1\MainPageScenario1Step1.class
+steps\scenario2\MainPageScenario2Step1.class
+steps\Hooks.class
+steps\scenario2\MainPageScenario2Step3.class

@@ -41,29 +41,8 @@ public class MainPage {
         return true;
     }
 
-//    public Boolean isCorrectTypePriceOfFrameAuto() {
-//        List<String> price = new ArrayList<>();
-//        price.add("Новые авто");
-//        price.add("С пробегом");
-//        price.add("Цена с НДС");
-//        price.add("Авто до 4000 р.");
-//        price.add("Авто до 10 000 р.");
-//        price.add("Авто до 20 000 р.");
-//        System.out.println(elementsPrice);
-//        List<String> actualPrice = elementsPrice.stream().filter(w -> !w.getText().trim().isEmpty()).map(q -> q.getText()).collect(Collectors.toList());
-//        System.out.println(actualPrice);
-//        boolean isListCorrect = true;
-//        for (int i = 0; i < price.size(); i++) {
-//            System.out.println(actualPrice.get(i));
-//            System.out.println(price.get(i));
-//            if (!actualPrice.get(i).contains(price.get(i))) {
-//                isListCorrect= false;
-//            }
-//        }
-//        return isListCorrect;
-//    }
     public List<String> getMainPrices() {
-//        return elementsPrice.stream()
+//        return elementsPriceAuto.stream()
 //                .filter(w -> !w.getText().trim().isEmpty())
 //                .map(q -> q.getText())
 //                .collect(Collectors.toList());
